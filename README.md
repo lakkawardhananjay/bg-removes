@@ -10,8 +10,8 @@ This project provides a Python API for removing backgrounds from images and maki
 
 ### Prerequisites
 
-![image](https://github.com/lakkawardhananjay/bg-removes/assets/92675267/52f7f53c-f4bf-4b0c-a848-4d1a0ae99660)
-https://banner2.cleanpng.com/20180412/kye/kisspng-python-programming-language-computer-programming-language-5acfdc3636bac7.8891188615235717662242.jpg
+![image](https://github.com/lakkawardhananjay/bg-removes/assets/92675267/70ebd127-1db3-4309-b1aa-8f1ec36e916a)
+
 
 ### Installation (Local Development)
 
