@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>PDF Report</title>
+</head>
+
+
+<body>
+  <div class="container" id="containerid">
+    <div class="pdf-container">
+      <span class="pdf-icon">PDF</span>
+      <div class="pdf-file-name">report.pdf</div>
+    </div>
+    <div  id="actions-container1" class="actions-container">
+      <div class="cancel-button">CANCEL</div>
+      <div class="upload-button" id="upload-buttonid">
+        <form
+        id="uploadForm"
+        action="/"
+        method="post"
+        enctype="multipart/form-data"
+      >
+      
+        <span class="button-text">DRAG & DROP</span>
+        <span class="or-text">OR</span>
+        <button class="select-button-text " id="fileInput" type="file" name="file" > SELECT FILES</button>
+        </form>
+      </div>
+      <div class="download-button">DOWNLOAD<span class="file-size">252kb</span></div>
+    </div>
+  </div>
+  <script>
+    let dropZone = document.getElementById("containerid");
+    let fileInput = document.getElementById("actions-container1");
+    let uploadForm = document.getElementById("uploadform");
+  
+    dropZone.addEventListener("click", function () {
+      fileInput.click();
+    });
+  
+    fileInput.addEventListener("change", function () {
+      if (fileInput.files.length > 0) {
+        uploadForm.submit();
+      }
+    });
+  
+    dropZone.addEventListener("dragover", function (e) {
+      this.classList.add("dragover");
+    });
+  
+    dropZone.addEventListener("dragleave", function (e) {
+      this.classList.remove("dragover");
+    });
+  
+    dropZone.addEventListener("drop", function (e) {
+      e.preventDefault();
+      e.stopPropagation();
+      this.classList.remove("dragover");
+  
+      let file = e.dataTransfer.files[0];
+      fileInput.files = e.dataTransfer.files;
+      uploadForm.submit();
+    });
+  </script>
+</body>
+</html>
