@@ -1,4 +1,4 @@
-## Background Removal API - Transparent Images
+## Background Removal APP - Transparent Images
 
 This project provides a Python API for removing backgrounds from images and making them transparent. The application is containerized and deployed on Google Cloud Run, allowing for easy scaling and accessibility.
 
