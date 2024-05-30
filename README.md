@@ -12,6 +12,7 @@ This project provides a Python API for removing backgrounds from images and maki
 
 <img src="https://github.com/lakkawardhananjay/bg-removes/assets/92675267/70ebd127-1db3-4309-b1aa-8f1ec36e916a" width="200" /> <img src="https://github.com/lakkawardhananjay/bg-removes/assets/92675267/12c836fc-625b-466d-a06f-dfa0c04f7fa0" width="200" /> <img src="https://github.com/lakkawardhananjay/bg-removes/assets/92675267/4fd740c1-4610-4929-aed5-9d845ebd9206" width="200" /> <img src="https://github.com/lakkawardhananjay/bg-removes/assets/92675267/6a7b5d9f-b280-4c6c-a853-a6a6bf8b49f5" width="200" />
 
+###Acess link:-https://bgrm-7brtnip6lq-uc.a.run.app
 
 ### Installation (Local Development)
 
