@@ -13,7 +13,7 @@ This project provides a robust and scalable solution for removing image backgrou
 ## **Demo**
 
 Access the live application:  
-👉 [Background Removal App](https://bgrm-7brtnip6lq-uc.a.run.app)  
+👉 [Background Removal App](https://remover-934068568901.us-central1.run.app/)  
 
 Below is a preview of the app interface:  
 
